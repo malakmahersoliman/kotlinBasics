@@ -1,14 +1,23 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-fun main() {
-    val name = "Kotlin"
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
 
-    for (i in 1..5) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        println("i = $i")
-    }
+// fun is to declare a function
+fun main() {
+
+
+  println("Hello World!")
+    println("Let's start again")
+
+  //read only variables with val
+  //mutable variables with var
+
+  val popcorn = 5    // There are 5 boxes of popcorn
+  val hotdog = 7     // There are 7 hotdogs
+  var customers = 10 // There are 10 customers in the queue
+//we can't change the popcorn or hotdog as they immutable
+// Some customers leave the queue
+  customers = 8
+  println(customers)
+
+    
 }
