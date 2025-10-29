@@ -9,6 +9,6 @@ fun main(){
   val bmi= weight/(height*height)
 
   println("Your BMI: %.2f".format(bmi))
-
+  // after Conditionals
 
 }
