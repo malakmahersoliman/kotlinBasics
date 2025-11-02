@@ -4,10 +4,20 @@
    val you: String? = null // so now it can be null by adding ? and still can add a value
    val you2: String? = "Human" //like here
    val me:String ="Malak" //top level variables
-   var greeting:String? = null
+//   var greeting:String? = null
 
 
    /* define a variables by val or var then variable name then : type */
+//functions
+
+fun getGreeting(): String{
+    return "Hello kotlin Course"
+}
+
+//unit similar to saying this returns nothing useful
+fun sayHello(): Unit{
+ println(getGreeting())
+}
 
 fun main(){
 
@@ -27,8 +37,15 @@ fun main(){
 //        else -> println(greeting)
 //    }
 
-    val greetingToPrint = if (greeting != null) greeting else "Hi"
-    println(greetingToPrint)
-
+   // val greetingToPrint = if (greeting != null) greeting else "Hi"
+//    greeting = "Hello"
+//    val greetingToPrint = when(greeting){
+//        null -> "Hi"
+//        else -> greeting
+//    }
+//    println(greetingToPrint)
+    println("Hello Word")
+    println(getGreeting())
 
 }
+
